@@ -15,11 +15,11 @@
 		</properties>
 	</rule>
 
-	<!-- Setup correct indent for Arrays -->
-	<rule ref="Generic.Arrays.ArrayIndent">
+	<!-- This rule conflicts with scoped indents array handling -->
+	<!-- <rule ref="Generic.Arrays.ArrayIndent">
 		<properties>
 			<property name="indent" value="4" />
 		</properties>
-	</rule>
+	</rule> -->
 
 </ruleset>
